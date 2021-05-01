@@ -392,7 +392,7 @@ class _InputWidgetView
       child: Row(
         textDirection: TextDirection.ltr,
         mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           if (!widget.selectorConfig.setSelectorButtonAsPrefixIcon) ...[
             Column(
@@ -409,9 +409,6 @@ class _InputWidgetView
                   isEnabled: widget.isEnabled,
                   autoFocusSearchField: widget.autoFocusSearch,
                   isScrollControlled: widget.countrySelectorScrollControlled,
-                ),
-                SizedBox(
-                  height: state.selectorButtonBottomPadding,
                 ),
               ],
             ),
