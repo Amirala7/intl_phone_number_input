@@ -100,7 +100,7 @@ class InternationalPhoneNumberInput extends StatefulWidget {
       this.initialValue,
       this.hintText = 'Phone number',
       this.errorMessage = 'Invalid phone number',
-      this.selectorButtonOnErrorPadding = 24,
+      this.selectorButtonOnErrorPadding = 0,
       this.spaceBetweenSelectorAndTextField = 12,
       this.maxLength = 15,
       this.isEnabled = true,
